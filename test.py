@@ -1,1 +1,1 @@
-print("GitHub PR Labeler test commit for release 6.1 branch")
+print("GitHub PR Labeler test commit from feature to release 6.1 branch")
