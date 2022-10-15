@@ -1,0 +1,12 @@
+name: PR Branch Labeler
+
+on: pull_request
+
+jobs:
+  label_prs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Label PRs
+      uses: ffittschen/pr-branch-labeler@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}

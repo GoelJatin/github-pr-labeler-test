@@ -1,0 +1,15 @@
+# Apply label "release" if base matches "release/*"
+feature:
+  base: "main"
+
+release-4.0:
+  base: "hotfix/v2037"
+
+release-5.0:
+  base: "release/v2640"
+
+release-6.0:
+  base: "release/v2679"
+
+release-6.1:
+  base: "release/v2836"
